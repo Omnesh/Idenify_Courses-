@@ -42,8 +42,8 @@ public class TestCase1 extends Base {
 		List<WebElement> ratings = driver.findElements(rating);
 		for (int j = 0; j < 2; ++j) {
 			System.out.println(names.get(j).getText() + " - " + ratings.get(j).getText());
-		}*/
-		System.out.println(driver.findElement(By.className("ratings-text")).getText());
+		}
+		System.out.println(driver.findElement(By.className("ratings-text")).getText());*/
 		
 	}
 
